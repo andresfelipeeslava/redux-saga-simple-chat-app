@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Sofia Sans", sans-serif;
+	font-size: larger;
+}
+.main {
+	grid-area: main;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: "sidebar main";
+}
+.author i {
+	padding: 5px;
+}
+.new-message {
+	width: 100%;
+	padding: 5px;
+	margin-left: 0px;
+	border-top: 1px solid #1e1c1c;
+	position: fixed;
+	bottom: 0;
+}
+.message-list {
+	padding: 5px 0 0 5px;
+}
+.sidebar {
+	height: 100%;
+	padding: 5px 0 0 5px;
+	border-right: 1px solid #1e1c1c;
+	grid-area: sidebar;
+	font-size: larger;
+}
+.new-message-stage {
+	padding: 0px;
+	height: 50px;
+}
+.new-message input {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	height: 1rem;
+	padding: 1.45rem;
+	font-family: "Sofia Sans", sans-serif;
+	font-size: larger;
+}
