@@ -1,5 +1,5 @@
 {
-	"name": "chat",
+	"name": "redux-saga-simple-chat-app",
 	"version": "1.0.0",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.14.1",
